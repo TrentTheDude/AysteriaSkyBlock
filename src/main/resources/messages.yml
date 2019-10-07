@@ -71,14 +71,14 @@ messages:
   noPermission: '&cYou do not have permissions for this command!'
   noPermissionBiome: '&cYou do not have permissions for this biome!'
   invalidBiome: '&cThis biome is invalid!'
-  noIslandPermissionCreate: '&aYou do not have permission to create this type of island!'
-  noPermissionKick: '&aYou do not have permission to kick this player!'
-  noPlayer: '&aPlease run the command with a player argument!'
-  noIslandArg: '&aPlease run the command with an island argument!'
-  forceDelete: '&aYour island has been forcefully deleted!'
-  forceDeleteDeleter: '&aYou have forcefully deleted this player''s island!!'
+  noIslandPermissionCreate: '&cYou do not have permission to create this type of island!'
+  noPermissionKick: '&cYou do not have permission to kick this player!'
+  noPlayer: '&cCould not find this player, check their name and try again!'
+  noIslandArg: '&cPlease run the command with an island argument!'
+  forceDelete: '&cYour island has been forcefully deleted!'
+  forceDeleteDeleter: '&cYou have forcefully deleted this player''s island!!'
 
-  noPermissionIsland: '&aYou do not have permissions to use this command in the island!'
+  noPermissionIsland: '&cYou do not have permissions to use this command in the island!'
   setBiome: '&aYou have set the biome!'
   ##########################################################################################
 
@@ -130,7 +130,9 @@ messages:
 
   ##########################################################################################
   #This is the island join message section
+  error: '&c&lAn Error occurred let the Staff Team know! (Code: 69)'
   joined: '&aYou have joined this island!'
+  joinedEveryone: '&a%player% &bhas joined the Island!'
   couldNotJoin: '&aSomething happened and you could not join this island!'
   islandLimit: '&aThis Island''s member limit is max!'
   left: '&aYou have left this island!'

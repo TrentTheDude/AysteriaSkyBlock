@@ -1,9 +1,9 @@
-name: SavageSkyBlock
+name: Trent_SkyBlock
 authors:
   - Trent
-version: '1.4'
+version: '1.5'
 
-main: org.savage.skyblock.SkyBlock
+main: me.trent.skyblock.SkyBlock
 
 depend:
   - WorldEdit
@@ -17,11 +17,3 @@ softdepend:
   - MVdWPlaceholderAPI
 
 load: POSTWORLD
-
-commands:
-  is:
-    aliases:
-      - island
-  isa:
-    aliases:
-      - isadmin
